@@ -7,6 +7,8 @@ namespace eTicket.Models
     {
         [Key]
         public int Id { get; set; }
-        
+
+        public List<Actor_Movie> Actors_Movie { get; set; }
+
     }
 }
